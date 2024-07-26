@@ -1,3 +1,5 @@
+// тема 1
+
 // Суворий режим
 "use strict"
 
@@ -48,3 +50,5 @@ console.log(chek);
 
 const isComing = confirm("Дякую за підтвердження!");
 console.log("isComing",);
+
+
