@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Перевірка полів</title>
+    
+</head>
+<body>
+<h2>Перше завдання!</h2>
+    <input type="text" id="field1" placeholder="Поле 1"><br><br>
+    <input type="text" id="field2" placeholder="Поле 2"><br><br>
+    <button onclick="checkFields()">Перевірити</button>
+<h2>Друге завдання!</h2>
+
+    <input type="number" id="number1" placeholder="Число 1"><br><br>
+    <input type="number" id="number2" placeholder="Число 2"><br><br>
+    <button onclick="checkNumbers()">Перевірити</button>
+    <h2>Третє завдання!</h2>
+
+<input type="text" id="textJs" placeholder="Введіть JavaScript">
+<button onclick="checkjs()">Перевірити</button>
+<h2>Четверте завдання</h2>
+
+<form onsubmit="checkRange()">
+    <input type="number" id="numberInput" placeholder="Введіть число"><br><br>
+    <button type="submit">Перевірити</button>
+</form>
+<h2>Пяте завдання</h2>
+
+<form onsubmit="validateForm()">
+    <label for="name">Ім'я:</label><br>
+    <input type="text" id="name" placeholder="Введіть ім'я"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" placeholder="Введіть email"><br><br>
+
+    <label for="password">Пароль:</label><br>
+    <input type="password" id="password" placeholder="Введіть пароль"><br><br>
+
+    <button type="submit">Відправити</button>
+</form>
+    <script src="./js/hw-4.js"></script>
+
+
+</body>
+</html>
