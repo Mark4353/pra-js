@@ -89,10 +89,10 @@ const colorText = alert("Введіть колір світлофора щоб �
 const textes = prompt();
 
     if (textes.includes("червоний")) {
-        alert(`${textes} - Стій`);
+        alert(`${textes} - Стзеленийій`);
     } else if(textes.includes("жовтий")) {
         alert(`${textes} - Увага `);
-    } else if(textes.includes("зелений")) {
+    } else if(textes.includes("")) {
         alert(`${textes} - Йди `);
     }else{
         alert("Такого кольору немає на світлофорі");
