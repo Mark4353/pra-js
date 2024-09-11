@@ -43,13 +43,13 @@ console.log(numbers);
 
 // ----7----
 
-// const numbers =['45','2','13','4','89','6','97','8','24','10'];
+const numbers =['45','2','13','4','89','6','97','8','24','10'];
 
-// for(number of numbers){
+for(number of numbers){
 
-// if(number % 2 === 0)
-// console.log(number)
-// }
+if(number % 2 === 0)
+console.log(number)
+}
 
 
 
