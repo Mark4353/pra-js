@@ -50,13 +50,13 @@
 
 
 // ----5----
-// const cardToUpdate = [
-//     'photo-1',
-//     'photo-2',
-//     'photo-3',
-//     'photo-4',
-//     'photo-5',
-// ];
-// cardToUpdate.splice(3,0,'photo-4-02');
+const cardToUpdate = [
+    'photo-1',
+    'photo-2',
+    'photo-3',
+    'photo-4',
+    'photo-5',
+];
+cardToUpdate.splice(3,0,'photo-4-02');
 
-// console.log(cardToUpdate);
+console.log(cardToUpdate);
