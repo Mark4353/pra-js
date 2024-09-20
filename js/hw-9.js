@@ -89,36 +89,36 @@ function logItems(array) {
 // // Було введено не число, попробуйте ще раз', при цьому результат promptзаписувати в масив чисел не потрібно, після чого знову користувачеві пропонується ввести число в prompt.
 
 
-let numbers = [];
-let total = 0;
+// let numbers = [];
+// let total = 0;
 
 
-while (true) {
-  let input = prompt('Введіть число (або натисніть Cancel для завершення):');
+// while (true) {
+//   let input = prompt('Введіть число (або натисніть Cancel для завершення):');
 
-  if (input === null) {
-    break;
-  }
+//   if (input === null) {
+//     break;
+//   }
 
-  let number = Number(input)
+//   let number = Number(input)
   
-  if (isNaN(number)) {
-    alert('Було введено не число, попробуйте ще раз');
+//   if (isNaN(number)) {
+//     alert('Було введено не число, попробуйте ще раз');
 
-    continue;
-  }
+//     continue;
+//   }
 
-  numbers.push(number);
-}
-if (numbers.length > 0) {
-  for (let num of numbers) {
+//   numbers.push(number);
+// }
+// if (numbers.length > 0) {
+//   for (let num of numbers) {
     
-    total += num;
-  }
+//     total += num;
+//   }
 
-  console.log(`Загальна сума чисел дорівнює ${total}`);
-} else {
-  console.log('Масив порожній.');
+//   console.log(`Загальна сума чисел дорівнює ${total}`);
+// } else {
+//   console.log('Масив порожній.');
 
 
-}
+// }
