@@ -99,31 +99,30 @@
 // console.log(myAvera
 // Для перевірки:
 
-const myAverageScore = function(marks){
-    let sum = 0;
-    for(const mark of marks){
-        sum += mark
-    }
-const AverageMark = sum / marks.length;
-let averageScore = '';
+// const myAverageScore = function(marks){
+//     let sum = 0;
+//     for(const mark of marks){
+//         sum += mark
+//     }
+// const AverageMark = sum / marks.length;
+// let averageScore = '';
 
-if(AverageMark >= 91 || AverageMark <= 100){
-averageScore='A'
-}else if(AverageMark >= 81 || AverageMark <= 90){
-    averageScore='B'
+// if(AverageMark >= 91 || AverageMark <= 100){
+// averageScore='A'
+// }else if(AverageMark >= 81 || AverageMark <= 90){
+//     averageScore='B'
 
-}else if(AverageMark >= 71 || AverageMark <= 80){
-    averageScore= 'C'
+// }else if(AverageMark >= 71 || AverageMark <= 80){
+//     averageScore= 'C'
 
-}else{
-    averageScore ='D'
-}
-const message = ` Оцінка ${averageScore}`
+// }else{
+//     averageScore ='D'
+// }
+// const message = ` Оцінка ${averageScore}`
 
-}
-console.log(message);
+// }
+// console.log(message);
 
 // console.log(myAverageScore([100, 75, 81, 96]));
 // console.log(myAverageScore([45, 63, 85, 70]));
 // console.log(myAverageScore([77, 82, 60, 58]));
-// console.log(myAverageScore([93, 99, 93, 96]));
