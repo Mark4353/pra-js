@@ -1,13 +1,13 @@
-const product ={
-    name:"banana",
-    price: 25,
-    photo:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.walmart.com%2Fip%2FFresh-Banana-Fruit-Each%2F44390948&psig=AOvVaw1BEcgDCGykRJ8B-JtQCkav&ust=1728897867027000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIi_3M6Ei4kDFQAAAAAdAAAAABAE",
-    info: {
-        city:"khatkiv",
-        country:"Ukranian"
-    }
-    
-}
+const product = {
+  name: "banana",
+  price: 25,
+  photo:
+    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.walmart.com%2Fip%2FFresh-Banana-Fruit-Each%2F44390948&psig=AOvVaw1BEcgDCGykRJ8B-JtQCkav&ust=1728897867027000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIi_3M6Ei4kDFQAAAAAdAAAAABAE",
+  info: {
+    city: "khatkiv",
+    country: "Ukranian",
+  },
+};
 // const{name, price, photo, info} = product;
 // console.log(name, price,photo,info)
 // const productCountry = product.info.country;
@@ -21,16 +21,12 @@ const product ={
 // const{ city, country} = product.info;
 // console.log(city)
 
-
-
 // Синтаксис деструктурізації
 // const {назва ключа} = назва обєкта
-
 
 // const { info } = product;
 
 // console.log(info);
-
 
 // якщо нам треба витянути ключи з глибшо вкладаннего обєкта то використовуемо катий синтаксис
 
@@ -38,12 +34,9 @@ const product ={
 
 // console.log(city,country);
 
-
-
 // const { weight = 0.25, name = "no name" } = product;
 // console.log(weight,name);
 // let info = "test";
-
 
 // const {info: prodInfo, ...information} = product;
 // // {info: prodInfo}-переназиваемо зміну info  через ...rest збираемо всі ключі в інший обєкт information
@@ -53,7 +46,6 @@ const product ={
 
 // const rgb =[200,255,100];
 // const[red,green,blue]=rgb;
-
 
 // const products = [
 //     {
@@ -70,7 +62,6 @@ const product ={
 //     }
 
 // ]
-
 
 // const tomatoProduct = products[0];
 // console.log(tomatoProduct);
@@ -90,14 +81,7 @@ const product ={
 
 // console.log(tomatoProduct);
 
-
-
-
-
-
-
 // Провести глибоку деструктуризацію об’єкту
-
 
 // const musicLibrary = {
 //     count: 2,
@@ -147,10 +131,9 @@ const product ={
 //             ]
 //           }
 //         ]
-//       }        
+//       }
 //     ]
 // }
-
 
 // const {
 //     count,
@@ -204,28 +187,23 @@ const product ={
 //     ],
 //   } = musicLibrary;
 
-
-// Напишіть функцію, яка приймає об'єкт, що містить інформацію про студента 
+// Напишіть функцію, яка приймає об'єкт, що містить інформацію про студента
 // (ім'я, прізвище, оцінки за три предмети) та використовує деструктуризацію для
-    //  повернення середньої оцінки студента.
+//  повернення середньої оцінки студента.
 const student = {
-    name: 'Bruce',
-    surname: 'Lee',
-    grades: [4, 5, 3]
-  };
- 
+  name: "Bruce",
+  surname: "Lee",
+  grades: [4, 5, 3],
+};
+
 const calculateAverageGrade = function (student) {
-const[grades] = student
-let allMarks = 0;
-for(const mark of grades){
- allMarks += mark
-}
-const resault = allMarks / grades.length;
-return resault;
+  const [grades] = student;
+  let allMarks = 0;
+  for (const mark of grades) {
+    allMarks += mark;
+  }
+  const resault = allMarks / grades.length;
+  return resault;
+};
 
-}
-
-  console.log(calculateAverageGrade(student));
-
-
-
+console.log(calculateAverageGrade(student));
