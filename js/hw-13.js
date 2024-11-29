@@ -63,3 +63,4 @@ account.deposit(1500);
 account.withdraw(450);
 console.log(`баланс: ${account.getBalance()} грн`);
 account.getTransactionHistory();
+
